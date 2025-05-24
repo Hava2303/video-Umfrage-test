@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video-Umfrage</title>
+  <script>
+    window.onload = function() {
+      var random = Math.random();
+      if (random < 0.5) {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSemJib0KtehDEM7ad7NbGvs-UDWMb2kWr3nFPB7oSSv_KIzkA/viewform?usp=dialog";
+      } else {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfpoYvaYUjK7p1-N6W0TQ8NYo5Db3yQKPOmcCtsaEMIy8dO1w/viewform?usp=dialog";
+      }
+    };
+  </script>
+  <style>
+    body { display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Arial, sans-serif; }
+    p { font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+  <p>Vielen Dank fürs Mitmachen – du wirst gleich zur Umfrage weitergeleitet…</p>
+</body>
+</html>
